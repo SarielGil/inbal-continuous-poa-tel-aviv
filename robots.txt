@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /output/
+Disallow: /.git/
+
+Sitemap: https://sarielgil.github.io/inbal-continuous-poa-tel-aviv/sitemap.xml
+
+# Crawl delay (in seconds)
+Crawl-delay: 1

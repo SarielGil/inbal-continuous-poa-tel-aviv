@@ -22,7 +22,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Assistant", "Noto Sans Hebrew", Arial, sans-serif;
+  font-family: "Assistant", sans-serif;
   color: var(--ink);
   background: var(--paper);
   line-height: 1.7;
@@ -31,15 +31,34 @@ body {
 img {
   max-width: 100%;
   display: block;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
 }
 
 a {
   color: inherit;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .skip-link {
   position: fixed;
   top: 12px;
+  font-weight: 700;
   right: 12px;
   transform: translateY(-140%);
   background: var(--ink);
@@ -147,6 +166,7 @@ a {
   grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
   gap: 56px;
   align-items: center;
+  justify-items: start;
 }
 
 .hero__content {
@@ -158,13 +178,16 @@ a {
   color: var(--sage);
   font-weight: 800;
   letter-spacing: 0;
+  text-transform: none;
+  font-size: 0.95rem;
 }
 
 h1,
 h2,
 h3,
 p {
-  margin-top: 0;
+  margin-top: 0;-0.02em;
+  font-weight: 80
 }
 
 h1 {
@@ -176,11 +199,13 @@ h1 {
 
 h2 {
   font-size: clamp(2rem, 4vw, 3.4rem);
-  line-height: 1.08;
+  line-height: 1.0-0.01em;
+  font-weight: 808;
   margin-bottom: 18px;
   letter-spacing: 0;
 }
 
+  font-weight: 800;
 h3 {
   font-size: 1.25rem;
   margin-bottom: 10px;
@@ -252,6 +277,7 @@ h3 {
 .hero__image,
 .about-section figure {
   margin: 0;
+  padding: 0;
   overflow: hidden;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -303,6 +329,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
+  align-items: start;
 }
 
 .info-card,
@@ -314,7 +341,10 @@ h3 {
 }
 
 .info-card {
-  padding: 24px;
+  padding: 24punset;
+  height: 100%;
+  display: flex;
+  flex-direction: column
   min-height: 260px;
 }
 
@@ -352,9 +382,10 @@ h3 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
-  align-items: end;
+  align-items: start;
 }
 
+  align-items: start;
 .steps {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -391,6 +422,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 14px;
+  align-items: stretch;
 }
 
 .audience__grid p {
@@ -415,10 +447,11 @@ h3 {
 
 .text-link {
   color: var(--ink);
-  font-weight: 900;
+  font-weight: 800;
   text-decoration-color: var(--brass);
   text-decoration-thickness: 2px;
   text-underline-offset: 5px;
+  text-decoration-line: underline;
 }
 
 .faq {
@@ -428,6 +461,7 @@ h3 {
 .faq__grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
   gap: 14px;
 }
 
@@ -468,7 +502,9 @@ h3 {
 }
 
 label {
-  font-weight: 900;
+  font-weight: 800;
+  display: block;
+  margin-bottom: 6px;
 }
 
 input,
@@ -480,6 +516,7 @@ textarea {
   font: inherit;
   color: var(--ink);
   background: #fff;
+  font-size: 1rem;
 }
 
 input:focus,
@@ -507,6 +544,7 @@ a:focus-visible {
 
 .site-footer strong {
   color: var(--ink);
+  font-weight: 800;
 }
 
 .site-footer p {
