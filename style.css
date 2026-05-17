@@ -176,36 +176,35 @@ a {
 .eyebrow {
   margin: 0 0 14px;
   color: var(--sage);
-  font-weight: 800;
-  letter-spacing: 0;
-  text-transform: none;
-  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.875rem;
 }
 
 h1,
 h2,
 h3,
 p {
-  margin-top: 0;-0.02em;
-  font-weight: 80
+  margin-top: 0;
+  letter-spacing: -0.02em;
+  font-weight: 400;
 }
 
 h1 {
   font-size: clamp(3rem, 7vw, 5.8rem);
-  line-height: 0.98;
+  line-height: 1.15;
   margin-bottom: 24px;
-  letter-spacing: 0;
+  letter-spacing: -0.02em;
 }
 
 h2 {
   font-size: clamp(2rem, 4vw, 3.4rem);
-  line-height: 1.0-0.01em;
-  font-weight: 808;
-  margin-bottom: 18px;
-  letter-spacing: 0;
-}
-
+  line-height: 1.1;
   font-weight: 800;
+  margin-bottom: 18px;
+  letter-spacing: -0.02em;
+}
 h3 {
   font-size: 1.25rem;
   margin-bottom: 10px;
@@ -217,7 +216,7 @@ h3 {
 .split > div > p,
 .contact p,
 .about-section p {
-  font-size: 1.18rem;
+  font-size: clamp(1rem, 1.2vw, 1.18rem);
   color: var(--ink-soft);
 }
 
@@ -296,7 +295,7 @@ h3 {
 }
 
 .about-section img {
-  object-position: center top;
+  object-position: center center;
 }
 
 .section {
@@ -341,10 +340,10 @@ h3 {
 }
 
 .info-card {
-  padding: 24punset;
+  padding: 24px;
   height: 100%;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
   min-height: 260px;
 }
 
@@ -442,7 +441,7 @@ h3 {
 }
 
 .about-section figure {
-  aspect-ratio: 1 / 1.18;
+  aspect-ratio: 1 / 1.25;
 }
 
 .text-link {
@@ -498,13 +497,13 @@ h3 {
   padding: 28px;
   box-shadow: var(--shadow);
   display: grid;
-  gap: 10px;
+  gap: 16px;
 }
 
 label {
   font-weight: 800;
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 input,
@@ -523,7 +522,7 @@ input:focus,
 textarea:focus,
 button:focus-visible,
 a:focus-visible {
-  outline: 3px solid rgba(185, 144, 72, 0.38);
+  outline: 3px solid var(--brass);
   outline-offset: 3px;
 }
 
@@ -586,6 +585,24 @@ a:focus-visible {
   }
 }
 
+@media (max-width: 900px) {
+  .steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .faq__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .audience__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .split {
+    gap: 36px;
+  }
+}
+
 @media (max-width: 760px) {
   .site-header__inner {
     padding-inline: 16px;
@@ -616,7 +633,7 @@ a:focus-visible {
   }
 
   .site-nav a {
-    padding: 13px 12px;
+    padding: 16px 14px;
   }
 
   .site-nav__cta {
@@ -627,10 +644,26 @@ a:focus-visible {
   .hero,
   .section {
     padding-inline: 18px;
+    padding-top: 48px;
+    padding-bottom: 32px;
+  }
+
+  .hero {
+    padding-top: 48px;
+    padding-bottom: 32px;
   }
 
   h1 {
     font-size: clamp(2.8rem, 15vw, 4.2rem);
+  }
+
+  .hero__lead,
+  .intro p,
+  .section > p,
+  .split > div > p,
+  .contact p,
+  .about-section p {
+    font-size: 1rem;
   }
 
   .hero__image {
@@ -650,8 +683,14 @@ a:focus-visible {
     min-height: unset;
   }
 
+  .site-footer {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
   .site-footer__links {
     flex-direction: column;
+    align-items: flex-start;
   }
 }
 
