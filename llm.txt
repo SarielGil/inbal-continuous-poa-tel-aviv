@@ -1,7 +1,7 @@
 # Large Language Model Information
 
-Canonical URL: https://sarielgil.github.io/inbal-continuous-poa-tel-aviv/
-Sitemap: https://sarielgil.github.io/inbal-continuous-poa-tel-aviv/sitemap.xml
+Canonical URL: https://inbalhanasab.co.il/
+Sitemap: https://inbalhanasab.co.il/sitemap.xml
 
 ## Website Purpose
 This website provides legal services for continuous power of attorney (ייפוי כוח מתמשך) in Tel Aviv, Israel, with lawyer Inbal Hanasab.

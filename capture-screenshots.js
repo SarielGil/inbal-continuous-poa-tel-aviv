@@ -8,7 +8,7 @@ const VIEWPORTS = {
   desktop: { width: 1280, height: 720 }
 };
 
-const URL = 'https://SarielGil.github.io/inbal-continuous-poa-tel-aviv/';
+const URL = 'https://inbalhanasab.co.il/';
 const OUTPUT_DIR = path.join(__dirname, 'output', 'playwright');
 
 async function captureScreenshots() {

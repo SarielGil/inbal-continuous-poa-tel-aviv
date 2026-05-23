@@ -1,7 +1,7 @@
 # Website Analysis & Fixes - Master Index
 
 **Project:** Inbal Hanasab Legal Services Website  
-**URL:** https://SarielGil.github.io/inbal-continuous-poa-tel-aviv/  
+**URL:** https://inbalhanasab.co.il/  
 **Specialization:** Continuous Power of Attorney (ייפוי כוח מתמשך) Legal Services  
 **Analysis Date:** May 18, 2026  
 **Status:** ✓ Complete with Fixes Applied
@@ -185,7 +185,7 @@ git push origin main
 git push origin main:gh-pages
 
 # 4. Verify deployment
-# - Check https://SarielGil.github.io/inbal-continuous-poa-tel-aviv/
+# - Check https://inbalhanasab.co.il/
 # - Monitor browser console for errors
 # - Run Lighthouse audit
 ```
@@ -327,4 +327,3 @@ All three analysis documents are available for detailed reference and future mai
 **Ready for Production** ✓  
 
 *Generated: May 18, 2026 | Analysis Tool: Playwright 1.48.0 | Standard: WCAG 2.1 AA*
-

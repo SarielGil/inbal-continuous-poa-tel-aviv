@@ -5,7 +5,7 @@ Allow: /llm.txt
 Disallow: /output/
 Disallow: /.git/
 
-Sitemap: https://sarielgil.github.io/inbal-continuous-poa-tel-aviv/sitemap.xml
+Sitemap: https://inbalhanasab.co.il/sitemap.xml
 
 # Crawl delay (in seconds)
 Crawl-delay: 1
