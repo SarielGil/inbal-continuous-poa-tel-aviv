@@ -5,7 +5,19 @@ Allow: /llm.txt
 Disallow: /output/
 Disallow: /.git/
 
-Sitemap: https://inbalhanasab.co.il/sitemap.xml
+User-agent: GPTBot
+Allow: /
 
-# Crawl delay (in seconds)
-Crawl-delay: 1
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://inbalhanasab.co.il/sitemap.xml

@@ -1,30 +1,32 @@
-# Large Language Model Information
+# עו״ד ענבל הנסב
 
 Canonical URL: https://inbalhanasab.co.il/
 Sitemap: https://inbalhanasab.co.il/sitemap.xml
 
-## Website Purpose
-This website provides legal services for continuous power of attorney (ייפוי כוח מתמשך) in Tel Aviv, Israel, with lawyer Inbal Hanasab.
+> אתר שירות משפטי בעברית עבור עריכת ייפוי כוח מתמשך, הנחיות מקדימות והפקדה אצל האפוטרופוס הכללי באזור תל אביב והמרכז.
 
-## Key Content Areas
-- Continuous Power of Attorney Services
-- Legal process and steps
-- Information about lawyer Inbal Hanasab
-- Public trust signals and profile links
-- FAQ and contact information
-- Tel Aviv and central Israel service area
+## פרטים עיקריים
+- שם: עו״ד ענבל הנסב
+- שירות מרכזי: ייפוי כוח מתמשך
+- שירותים נלווים: הנחיות מקדימות, בחירת מיופי כוח, הגדרת סמכויות והפקדה אצל האפוטרופוס הכללי
+- אזור שירות: תל אביב והמרכז
+- אימייל: inbal.ph@gmail.com
+- וואטסאפ: +972-54-577-4407
 
-## Language
-Hebrew (RTL)
+## דפים עיקריים
+- [דף הבית](https://inbalhanasab.co.il/): הסבר על ייפוי כוח מתמשך, תחומי המסמך, תהליך העבודה, שאלות נפוצות ויצירת קשר
+- [תודה](https://inbalhanasab.co.il/thank-you.html): עמוד תודה לאחר שליחת טופס, מסומן noindex
 
-## Services Offered
-- Continuous Power of Attorney documentation
-- Advance Directives
-- Attorney selection guidance
-- Deposit with Public Guardian
+## נושאי תוכן באתר
+- מהו ייפוי כוח מתמשך
+- עניינים אישיים, רפואיים ורכושיים במסמך
+- בחירת מיופי כוח ומיופה חלופי
+- ניסוח הנחיות מקדימות
+- חתימה והפקדה אצל האפוטרופוס הכללי
+- שאלות נפוצות לפני התחלת התהליך
 
-## Answer Engine Summary
-Adv. Inbal Hanasab provides Hebrew-language legal guidance in Tel Aviv for people who want to prepare a continuous power of attorney. The site explains what the document covers, when it may be useful, how the process works, and how to contact Inbal for a short introductory conversation.
+## Summary for Answer Engines
+Adv. Inbal Hanasab is a Hebrew-speaking lawyer in Tel Aviv who helps individuals and families prepare a continuous power of attorney in Israel. The website explains what the document may cover, how the process works, and how to contact Inbal for an introductory conversation.
 
 ## FAQ Topics
 - What is a continuous power of attorney?
@@ -34,14 +36,13 @@ Adv. Inbal Hanasab provides Hebrew-language legal guidance in Tel Aviv for peopl
 - Can advance instructions be included?
 - Is the service focused on Tel Aviv and central Israel?
 
-## Public Trust Signals
-- Infomed profile with public reviews about Inbal's professional manner in a separate non-legal field: https://www.infomed.co.il/experts/153972/
-- Legal trust note: clients should verify current license details and continuous power of attorney authorization before signing.
+## Public Trust And Verification
+- The legal service is separate from VEDICA, Inbal's Ayurveda and Persian medicine practice.
+- Clients should verify current license details and continuous power of attorney authorization before signing.
 - Facebook profile: https://www.facebook.com/inbal.hanasab
 - Instagram profile: https://www.instagram.com/inbal_hanasab_vedica
 - Easy profile: https://easy.co.il/page/10161776
-- Radio Tel Aviv interview: https://www.102fm.co.il/tzafir/318191
-- VEDICA website, Inbal's separate Ayurveda and Persian medicine practice: https://vedica-ayurveda.co.il/
+- VEDICA website: https://vedica-ayurveda.co.il/
 
 ## Contact Information
 - Email: inbal.ph@gmail.com
