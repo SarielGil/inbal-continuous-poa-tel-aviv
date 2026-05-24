@@ -677,6 +677,15 @@ h3 {
   margin-top: 0;
 }
 
+.social-proof__note {
+  max-width: 780px;
+  margin: 22px auto 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  text-align: center;
+}
+
 .about-section {
   display: grid;
   grid-template-columns: 0.72fr 1.28fr;
