@@ -3,21 +3,5 @@ Allow: /
 Allow: /llms.txt
 Allow: /llm.txt
 Disallow: /output/
-Disallow: /.git/
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
 
 Sitemap: https://inbalhanasab.co.il/sitemap.xml
