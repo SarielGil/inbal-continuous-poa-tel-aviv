@@ -735,6 +735,33 @@ h3 {
   line-height: 1.75;
 }
 
+.official-resources {
+  border-top: 1px solid var(--line);
+}
+
+.official-resources__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.official-resources__grid a {
+  display: flex;
+  min-height: 104px;
+  align-items: center;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 900;
+  line-height: 1.55;
+  text-decoration-color: var(--brass);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  box-shadow: 0 4px 12px rgba(17, 54, 63, 0.06);
+}
+
 .contact {
   max-width: none;
   background: var(--sage-light);
@@ -985,6 +1012,7 @@ a:focus-visible {
   .trust-band__items,
   .audience__grid,
   .faq__grid,
+  .official-resources__grid,
   .site-footer {
     grid-template-columns: 1fr;
   }
