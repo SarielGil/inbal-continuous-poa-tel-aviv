@@ -3,3 +3,9 @@ node_modules/
 dist/
 .playwright-cli/
 output/
+
+# Local API/OAuth credentials and tokens.
+client_secret*.json
+*client_secret*.json
+token*.json
+.gsc/

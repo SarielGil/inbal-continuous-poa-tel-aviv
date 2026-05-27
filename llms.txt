@@ -13,9 +13,8 @@ Sitemap: https://inbalhanasab.co.il/sitemap.xml
 - אימייל: inbal.ph@gmail.com
 - וואטסאפ: +972-54-577-4407
 
-## דפים עיקריים
+## דפים עיקריים לאינדוקס
 - [דף הבית](https://inbalhanasab.co.il/): הסבר על ייפוי כוח מתמשך, תחומי המסמך, תהליך העבודה, שאלות נפוצות ויצירת קשר
-- [תודה](https://inbalhanasab.co.il/thank-you.html): עמוד תודה לאחר שליחת טופס, מסומן noindex
 
 ## נושאי תוכן באתר
 - מהו ייפוי כוח מתמשך
@@ -40,6 +39,9 @@ Adv. Inbal Hanasab is a Hebrew-speaking lawyer in Tel Aviv who helps individuals
 - Inbal is a co-owner of VEDICA, a separate professional activity: https://vedica-ayurveda.co.il/
 - The legal service on this website is separate from VEDICA and focuses on continuous power of attorney.
 - Clients should verify current license details and continuous power of attorney authorization before signing.
+- Official government information about editing and depositing a continuous power of attorney: https://www.gov.il/he/service/edit_and_deposit_continuous_power_of_attorney
+- Official government information about entry into effect: https://www.gov.il/he/service/effective_continuous_power_of_attorney
+- Official Q&A from the Administrator General: https://www.gov.il/he/Departments/DynamicCollectors/questions-and-answers-guardianship
 - Facebook profile: https://www.facebook.com/inbal.hanasab
 - Instagram profile: https://www.instagram.com/inbal_hanasab_vedica
 - Easy profile: https://easy.co.il/page/10161776
