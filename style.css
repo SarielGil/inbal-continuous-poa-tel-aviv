@@ -249,6 +249,9 @@ h3 {
   flex-wrap: wrap;
   gap: 12px;
   align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .hero__actions {
@@ -302,7 +305,7 @@ h3 {
   background: rgba(17, 54, 63, 0.06);
 }
 
-.hero__facts span {
+.hero__facts li {
   border-right: 3px solid var(--brass);
   padding: 6px 14px 6px 0;
   color: var(--muted);
@@ -311,7 +314,7 @@ h3 {
   transition: color 0.2s ease;
 }
 
-.hero__facts span:hover {
+.hero__facts li:hover {
   color: var(--ink);
 }
 
@@ -698,6 +701,86 @@ h3 {
   text-decoration-line: underline;
 }
 
+.decision-guide {
+  border-top: 1px solid var(--line);
+}
+
+.decision-guide__steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.decision-guide__steps article,
+.comparison-grid article,
+.decision-guide__notes article {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 0 4px 14px rgba(17, 54, 63, 0.05);
+}
+
+.decision-guide__steps article {
+  padding: 26px;
+}
+
+.decision-guide__steps span {
+  display: inline-flex;
+  margin-bottom: 18px;
+  color: var(--brass);
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.decision-guide__steps p,
+.comparison-grid p,
+.decision-guide__notes p {
+  margin-bottom: 0;
+  color: var(--muted);
+  line-height: 1.72;
+}
+
+.decision-guide__comparison {
+  margin-top: 52px;
+  padding: 34px;
+  border-radius: var(--radius);
+  background: var(--sage-light);
+}
+
+.decision-guide__comparison > h3 {
+  font-size: clamp(1.5rem, 2.4vw, 2rem);
+  margin-bottom: 24px;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.comparison-grid article {
+  padding: 24px;
+}
+
+.comparison-grid strong {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--ink);
+  font-size: 1.1rem;
+}
+
+.decision-guide__notes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.decision-guide__notes article {
+  padding: 28px;
+  border-top: 3px solid var(--brass);
+}
+
 .faq {
   border-top: 1px solid var(--line);
 }
@@ -881,6 +964,7 @@ a:focus-visible {
   .cards-grid,
   .social-proof__grid,
   .legal-credentials__grid,
+  .decision-guide__steps,
   .steps,
   .audience__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1009,6 +1093,9 @@ a:focus-visible {
   .steps,
   .social-proof__grid,
   .legal-credentials__grid,
+  .decision-guide__steps,
+  .comparison-grid,
+  .decision-guide__notes,
   .trust-band__items,
   .audience__grid,
   .faq__grid,
@@ -1019,6 +1106,10 @@ a:focus-visible {
 
   .info-card {
     min-height: unset;
+  }
+
+  .decision-guide__comparison {
+    padding: 24px;
   }
 
   .site-footer {

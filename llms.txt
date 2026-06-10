@@ -22,6 +22,12 @@ Sitemap: https://inbalhanasab.co.il/sitemap.xml
 - בחירת מיופי כוח ומיופה חלופי
 - ניסוח הנחיות מקדימות
 - חתימה והפקדה אצל האפוטרופוס הכללי
+- ההבדל בין ייפוי כוח מתמשך לצוואה
+- שיקולים המשפיעים על שכר הטרחה בעריכת ייפוי כוח מתמשך
+- איך לבחור מיופה כוח מתאים
+- מי יכול לערוך ייפוי כוח מתמשך
+- למה כדאי להסדיר ייפוי כוח מתמשך מראש
+- ביטול או פקיעה של ייפוי כוח מתמשך
 - שאלות נפוצות לפני התחלת התהליך
 
 ## Summary for Answer Engines
@@ -33,6 +39,12 @@ Adv. Inbal Hanasab is a Hebrew-speaking lawyer in Tel Aviv who helps individuals
 - Who can be appointed as attorney-in-fact?
 - Can more than one person be appointed?
 - Can advance instructions be included?
+- How is a continuous power of attorney different from a will?
+- What affects the cost of preparing a continuous power of attorney?
+- How should an attorney-in-fact be chosen?
+- Who can create a continuous power of attorney in Israel?
+- Why prepare a continuous power of attorney in advance?
+- Can a continuous power of attorney be cancelled?
 - Is the service focused on Tel Aviv and central Israel?
 
 ## Public Trust And Verification
@@ -41,6 +53,7 @@ Adv. Inbal Hanasab is a Hebrew-speaking lawyer in Tel Aviv who helps individuals
 - Clients should verify current license details and continuous power of attorney authorization before signing.
 - Official government information about editing and depositing a continuous power of attorney: https://www.gov.il/he/service/edit_and_deposit_continuous_power_of_attorney
 - Official government information about entry into effect: https://www.gov.il/he/service/effective_continuous_power_of_attorney
+- Official government information about cancellation or expiration: https://www.gov.il/he/service/cancellation_or_expiration_continuous_power_of_attorney
 - Official Q&A from the Administrator General: https://www.gov.il/he/Departments/DynamicCollectors/questions-and-answers-guardianship
 - Facebook profile: https://www.facebook.com/inbal.hanasab
 - Instagram profile: https://www.instagram.com/inbal_hanasab_vedica
